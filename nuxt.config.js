@@ -55,5 +55,8 @@ export default {
   build: {
     // https://github.com/primefaces/primevue/issues/844
     transpile: ['primevue'],
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/Film-Zone/_nuxt/'
+      : '/_nuxt/'
   }
 }
