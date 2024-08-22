@@ -9,7 +9,6 @@ import InputText from 'primevue/inputtext';
 import Dialog from 'primevue/dialog';
 import ToastService from 'primevue/toastservice';
 
-
 Vue.use(PrimeVue)
 Vue.use(ToastService);
 
