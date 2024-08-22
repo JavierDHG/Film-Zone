@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+}
+
+.All_search {
+    text-align: center;
+    display: flex;
+    /* Coloca los elementos en columna */
+    flex-direction: column;
+    /* Centra los elementos horizontalmente */
+    align-items: center;
+    /* Espaciado entre los elementos */
+    gap: 10px;
+    background-color: #f7f7f7;
+    /* Fondo claro para contrastar con el tema oscuro de PrimeVue */
+}
+
+.Loadbar {
+    /* Centra horizontalmente */
+    justify-content: center;
+    /* Centra verticalmente */
+    align-items: center;
+    width: 50%;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Fondo semitransparente */
+    backdrop-filter: blur(5px);
+    /* Efecto de desenfoque */
+    z-index: 1000;
+    /* Asegúrate de que esté por encima de otros elementos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-inputtext {
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    border-width: 2px;
+}
+
+.rate {
+    width: 15px;
+    height: 15px;
+    background-color: gold;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    display: inline-block;
+    margin-bottom: -2px;
+}
